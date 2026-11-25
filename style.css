@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 30px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 1060px;
+  table-layout: fixed;
+}
+
+caption {
+  text-align: left;
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 12px;
+}
+
+th, td {
+  border: 1px solid #8a7f8f;
+  padding: 20px 10px;
+  text-align: center;
+  font-size: 18px;
+}
+
+th { font-weight: bold; }
+
+th small {
+  display: block;
+  font-size: 13px;
+  font-weight: normal;
+  margin-top: 8px;
+}
+
+tfoot td.label {
+  text-align: left;
+  font-weight: bold;
+  padding-left: 20px;
+}
+tfoot td.avg { font-weight: bold; }
+col.gray  { background-color: #fdf0e6; }  
+col.blue  { background-color: #ece8f8; }  
+col.green { background-color: #fbe8ee; }  
